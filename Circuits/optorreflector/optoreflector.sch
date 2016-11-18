@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5277,62 +5277,6 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="frames">
-<description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
-<packages>
-</packages>
-<symbols>
-<symbol name="DINA4_L">
-<frame x1="0" y1="0" x2="264.16" y2="180.34" columns="4" rows="4" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
-</symbol>
-<symbol name="DOCFIELD">
-<wire x1="0" y1="0" x2="71.12" y2="0" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="15.24" x2="87.63" y2="15.24" width="0.1016" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="0" y1="5.08" x2="71.12" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="0" y1="5.08" x2="0" y2="15.24" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="15.24" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="71.12" y1="5.08" x2="71.12" y2="0" width="0.1016" layer="94"/>
-<wire x1="71.12" y1="5.08" x2="87.63" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="71.12" y1="0" x2="101.6" y2="0" width="0.1016" layer="94"/>
-<wire x1="87.63" y1="15.24" x2="87.63" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="87.63" y1="15.24" x2="0" y2="15.24" width="0.1016" layer="94"/>
-<wire x1="87.63" y1="5.08" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="5.08" x2="101.6" y2="0" width="0.1016" layer="94"/>
-<wire x1="0" y1="15.24" x2="0" y2="22.86" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="35.56" x2="0" y2="35.56" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="35.56" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
-<wire x1="0" y1="22.86" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
-<wire x1="0" y1="22.86" x2="0" y2="35.56" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="22.86" x2="101.6" y2="15.24" width="0.1016" layer="94"/>
-<text x="1.27" y="1.27" size="2.54" layer="94">Date:</text>
-<text x="12.7" y="1.27" size="2.54" layer="94">&gt;LAST_DATE_TIME</text>
-<text x="72.39" y="1.27" size="2.54" layer="94">Sheet:</text>
-<text x="86.36" y="1.27" size="2.54" layer="94">&gt;SHEET</text>
-<text x="88.9" y="11.43" size="2.54" layer="94">REV:</text>
-<text x="1.27" y="19.05" size="2.54" layer="94">TITLE:</text>
-<text x="1.27" y="11.43" size="2.54" layer="94">Document Number:</text>
-<text x="17.78" y="19.05" size="2.54" layer="94">&gt;DRAWING_NAME</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="DINA4_L" prefix="FRAME" uservalue="yes">
-<description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
-DIN A4, landscape with extra doc field</description>
-<gates>
-<gate name="G$1" symbol="DINA4_L" x="0" y="0"/>
-<gate name="G$2" symbol="DOCFIELD" x="162.56" y="0" addlevel="must"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="Panasonic-Trimmer_Potentiometers">
 <description>&lt;b&gt; Developed By element14 &lt;/b&gt;&lt;p&gt; 
 
@@ -6439,6 +6383,52 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="frames">
+<description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="A4L-LOC">
+<wire x1="256.54" y1="3.81" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="256.54" y1="8.89" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="256.54" y1="13.97" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="256.54" y1="19.05" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="161.29" y1="3.81" x2="161.29" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="161.29" y1="24.13" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="24.13" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="246.38" y1="3.81" x2="246.38" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="246.38" y1="8.89" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="246.38" y1="8.89" x2="215.265" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="8.89" x2="215.265" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="8.89" x2="215.265" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="13.97" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="13.97" x2="215.265" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="19.05" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="19.05" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
+<text x="217.17" y="15.24" size="2.54" layer="94">&gt;DRAWING_NAME</text>
+<text x="217.17" y="10.16" size="2.286" layer="94">&gt;LAST_DATE_TIME</text>
+<text x="230.505" y="5.08" size="2.54" layer="94">&gt;SHEET</text>
+<text x="216.916" y="4.953" size="2.54" layer="94">Sheet:</text>
+<frame x1="0" y1="0" x2="260.35" y2="179.07" columns="6" rows="4" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="A4L-LOC" prefix="FRAME" uservalue="yes">
+<description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
+DIN A4, landscape with location and doc. field</description>
+<gates>
+<gate name="G$1" symbol="A4L-LOC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6452,7 +6442,6 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="IC1" library="linear" deviceset="LM358" device="D"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="68"/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0805" value="20k"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="R0805" value="330"/>
 <part name="LED1" library="led" deviceset="LED" device="CHIP-LED0805"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
@@ -6465,40 +6454,81 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="P+4" library="supply1" deviceset="VCC" device=""/>
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="FRAME1" library="frames" deviceset="DINA4_L" device=""/>
 <part name="R5" library="Panasonic-Trimmer_Potentiometers" deviceset="EVM" device="-2W" technology="2WSX80B24" value=" 20KOHM "/>
 <part name="P+7" library="supply1" deviceset="VCC" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="OS1" library="tcrt5000" deviceset="TCRT5000" device=""/>
+<part name="OS1" library="tcrt5000" deviceset="TCRT5000" device="" value="TCRT5000"/>
+<part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
+<wire x1="208.28" y1="-7.62" x2="220.98" y2="-7.62" width="0.1524" layer="97" style="longdash"/>
+<wire x1="220.98" y1="-7.62" x2="220.98" y2="-5.08" width="0.1524" layer="97" style="longdash"/>
+<wire x1="25.4" y1="144.78" x2="93.98" y2="144.78" width="0.1524" layer="97" style="longdash"/>
+<wire x1="93.98" y1="144.78" x2="93.98" y2="53.34" width="0.1524" layer="97" style="longdash"/>
+<wire x1="93.98" y1="53.34" x2="25.4" y2="53.34" width="0.1524" layer="97" style="longdash"/>
+<wire x1="25.4" y1="53.34" x2="25.4" y2="144.78" width="0.1524" layer="97" style="longdash"/>
+<wire x1="99.06" y1="144.78" x2="99.06" y2="53.34" width="0.1524" layer="97" style="longdash"/>
+<wire x1="99.06" y1="53.34" x2="175.26" y2="53.34" width="0.1524" layer="97" style="longdash"/>
+<wire x1="175.26" y1="53.34" x2="175.26" y2="144.78" width="0.1524" layer="97" style="longdash"/>
+<wire x1="175.26" y1="144.78" x2="99.06" y2="144.78" width="0.1524" layer="97" style="longdash"/>
+<wire x1="180.34" y1="53.34" x2="180.34" y2="144.78" width="0.1524" layer="97" style="longdash"/>
+<wire x1="180.34" y1="144.78" x2="236.22" y2="144.78" width="0.1524" layer="97" style="longdash"/>
+<wire x1="236.22" y1="144.78" x2="236.22" y2="53.34" width="0.1524" layer="97" style="longdash"/>
+<wire x1="236.22" y1="53.34" x2="180.34" y2="53.34" width="0.1524" layer="97" style="longdash"/>
+<text x="25.4" y="48.26" size="2.54" layer="97">Optoreflector</text>
+<text x="180.34" y="48.26" size="2.54" layer="97">JST XH Female conector</text>
+<text x="99.06" y="45.72" size="2.54" layer="97">Comparator with ajustable threshold by R5
+If (-) is higher than (+) LED1 will turn ON</text>
 </plain>
 <instances>
-<instance part="IC1" gate="A" x="104.14" y="76.2"/>
-<instance part="R1" gate="G$1" x="43.18" y="86.36" rot="R90"/>
-<instance part="R2" gate="G$1" x="71.12" y="86.36" rot="R90"/>
-<instance part="R3" gate="G$1" x="91.44" y="86.36" rot="R90"/>
-<instance part="R4" gate="G$1" x="124.46" y="81.28" rot="R90"/>
-<instance part="LED1" gate="G$1" x="124.46" y="93.98"/>
-<instance part="GND1" gate="1" x="45.72" y="55.88"/>
-<instance part="GND2" gate="1" x="63.5" y="55.88"/>
-<instance part="P+1" gate="VCC" x="43.18" y="99.06"/>
-<instance part="P+2" gate="VCC" x="71.12" y="99.06"/>
-<instance part="JP1" gate="A" x="165.1" y="73.66"/>
-<instance part="P+3" gate="VCC" x="124.46" y="101.6"/>
-<instance part="IC1" gate="P" x="104.14" y="76.2"/>
-<instance part="GND3" gate="1" x="104.14" y="58.42"/>
-<instance part="P+4" gate="VCC" x="104.14" y="99.06"/>
-<instance part="P+5" gate="VCC" x="144.78" y="99.06"/>
-<instance part="GND4" gate="1" x="144.78" y="58.42"/>
-<instance part="FRAME1" gate="G$1" x="-30.48" y="-7.62"/>
-<instance part="FRAME1" gate="G$2" x="132.08" y="-7.62"/>
-<instance part="R5" gate="A" x="83.82" y="109.22" rot="R270"/>
-<instance part="P+7" gate="VCC" x="83.82" y="116.84"/>
-<instance part="GND6" gate="1" x="83.82" y="83.82"/>
-<instance part="OS1" gate="OS" x="55.88" y="73.66"/>
+<instance part="IC1" gate="A" x="129.54" y="93.98"/>
+<instance part="R1" gate="G$1" x="45.72" y="104.14" smashed="yes" rot="R90">
+<attribute name="NAME" x="50.546" y="106.1974" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="50.292" y="103.378" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R2" gate="G$1" x="73.66" y="104.14" smashed="yes" rot="R90">
+<attribute name="NAME" x="78.74" y="106.1974" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="79.756" y="103.378" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R4" gate="G$1" x="149.86" y="101.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="154.94" y="103.9114" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="156.21" y="101.346" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="LED1" gate="G$1" x="149.86" y="111.76" smashed="yes">
+<attribute name="NAME" x="157.48" y="111.252" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="155.575" y="107.188" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND1" gate="1" x="48.26" y="73.66"/>
+<instance part="GND2" gate="1" x="66.04" y="73.66"/>
+<instance part="P+1" gate="VCC" x="45.72" y="116.84" smashed="yes">
+<attribute name="VALUE" x="51.816" y="116.332" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+2" gate="VCC" x="73.66" y="116.84" smashed="yes">
+<attribute name="VALUE" x="79.756" y="115.824" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="JP1" gate="A" x="215.9" y="91.44"/>
+<instance part="P+3" gate="VCC" x="149.86" y="119.38" smashed="yes">
+<attribute name="VALUE" x="156.718" y="119.126" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="IC1" gate="P" x="129.54" y="93.98"/>
+<instance part="GND3" gate="1" x="129.54" y="76.2"/>
+<instance part="P+4" gate="VCC" x="129.54" y="119.38" smashed="yes">
+<attribute name="VALUE" x="135.636" y="118.872" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+5" gate="VCC" x="203.2" y="109.22"/>
+<instance part="GND4" gate="1" x="203.2" y="78.74"/>
+<instance part="R5" gate="A" x="109.22" y="127" smashed="yes" rot="R270">
+<attribute name="NAME" x="112.776" y="123.698" size="2.032" layer="95"/>
+<attribute name="VALUE" x="111.76" y="120.65" size="2.032" layer="96"/>
+</instance>
+<instance part="P+7" gate="VCC" x="109.22" y="134.62" smashed="yes">
+<attribute name="VALUE" x="115.824" y="134.366" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND6" gate="1" x="109.22" y="101.6"/>
+<instance part="OS1" gate="OS" x="58.42" y="91.44"/>
+<instance part="FRAME1" gate="G$1" x="0" y="0"/>
 </instances>
 <busses>
 </busses>
@@ -6507,18 +6537,17 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="LED1" gate="G$1" pin="C"/>
-<wire x1="124.46" y1="86.36" x2="124.46" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="71.12" y1="73.66" x2="71.12" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="91.44" x2="73.66" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="A" pin="-IN"/>
-<wire x1="71.12" y1="76.2" x2="71.12" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="73.66" x2="96.52" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="76.2" x2="71.12" y2="76.2" width="0.1524" layer="91"/>
-<junction x="71.12" y="76.2"/>
+<wire x1="73.66" y1="93.98" x2="73.66" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="91.44" x2="121.92" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="93.98" x2="73.66" y2="93.98" width="0.1524" layer="91"/>
+<junction x="73.66" y="93.98"/>
 <pinref part="OS1" gate="OS" pin="COLLECTOR"/>
 </segment>
 </net>
@@ -6526,95 +6555,88 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <segment>
 <pinref part="IC1" gate="P" pin="V-"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="104.14" y1="68.58" x2="104.14" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="86.36" x2="129.54" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="3"/>
-<wire x1="162.56" y1="71.12" x2="144.78" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="71.12" x2="144.78" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="88.9" x2="203.2" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="88.9" x2="203.2" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
 <pinref part="R5" gate="A" pin="3"/>
-<wire x1="83.82" y1="86.36" x2="83.82" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="104.14" x2="109.22" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
 <pinref part="OS1" gate="OS" pin="CATHODE"/>
-<wire x1="45.72" y1="58.42" x2="45.72" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="76.2" x2="48.26" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
 <pinref part="OS1" gate="OS" pin="EMITTER"/>
-<wire x1="63.5" y1="58.42" x2="63.5" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="76.2" x2="66.04" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
 <segment>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="43.18" y1="96.52" x2="43.18" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="114.3" x2="45.72" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="71.12" y1="96.52" x2="71.12" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="114.3" x2="73.66" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="LED1" gate="G$1" pin="A"/>
 <pinref part="P+3" gate="VCC" pin="VCC"/>
-<wire x1="124.46" y1="99.06" x2="124.46" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="116.84" x2="149.86" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="P" pin="V+"/>
 <pinref part="P+4" gate="VCC" pin="VCC"/>
-<wire x1="104.14" y1="83.82" x2="104.14" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="101.6" x2="129.54" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="2"/>
-<wire x1="162.56" y1="73.66" x2="144.78" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="91.44" x2="203.2" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="P+5" gate="VCC" pin="VCC"/>
-<wire x1="144.78" y1="96.52" x2="144.78" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="106.68" x2="203.2" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R5" gate="A" pin="1"/>
 <pinref part="P+7" gate="VCC" pin="VCC"/>
-<wire x1="83.82" y1="109.22" x2="83.82" y2="114.3" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="OUTPUT" class="0">
-<segment>
-<pinref part="IC1" gate="A" pin="OUT"/>
-<wire x1="111.76" y1="76.2" x2="124.46" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<junction x="124.46" y="76.2"/>
-<pinref part="JP1" gate="A" pin="1"/>
-<wire x1="124.46" y1="76.2" x2="162.56" y2="76.2" width="0.1524" layer="91"/>
-<label x="147.32" y="76.2" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="81.28" x2="91.44" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="A" pin="+IN"/>
-<wire x1="91.44" y1="78.74" x2="96.52" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="127" x2="109.22" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="R5" gate="A" pin="2"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="91.44" y1="99.06" x2="91.44" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="A" pin="+IN"/>
+<wire x1="116.84" y1="96.52" x2="121.92" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="116.84" x2="116.84" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="76.2" x2="43.18" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="76.2" x2="43.18" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="93.98" x2="45.72" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="93.98" x2="45.72" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="OS1" gate="OS" pin="ANODE"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="IC1" gate="A" pin="OUT"/>
+<pinref part="JP1" gate="A" pin="1"/>
+<wire x1="137.16" y1="93.98" x2="149.86" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="149.86" y1="93.98" x2="213.36" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="96.52" x2="149.86" y2="93.98" width="0.1524" layer="91"/>
+<junction x="149.86" y="93.98"/>
 </segment>
 </net>
 </nets>
@@ -6622,4 +6644,10 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
