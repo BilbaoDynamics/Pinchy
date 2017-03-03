@@ -1,0 +1,103 @@
+<!--
+	NOTA! No utilizar este html ni el css como software educativo, es un apaño rápido y mal hecho
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>BD: MF Matriz Draw</title>
+
+	<link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+	<!-- Content -->
+	<div class=""></div>
+
+	<div class="container">
+		<div class="topbar">
+			<img class="logo" src="images/bd.png" style="height:30px;"/>
+			<button class="ib ttab "id="boton_inicio">Inicio</button>
+			<button class="ib ttab "id="boton_matriz">Dibuja</button>
+			
+			<select class="ib" name="pinchiid" id="pinchiid">
+				<option value="1" selected>1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+			</select>
+		</div>
+		<div class="container-web">
+			<div class="ppad">
+				<div class="cc1">
+					<br><br><br>
+					<img class="iimg" src="images/pusheengif.gif"><br>
+				</div>
+				
+				<div class="cc2">
+					
+					<br>¡Elige tu Pinchy arriba!
+					<p style="margin-top: 16px">
+					LED<br>
+					<button class="bb b_red" id="b_red">Rojo</button>
+					<button class="bb b_green" id="b_green">Verde</button>
+					<button class="bb b_blue" id="b_blue">Azul</button>
+					<button class="bb b_off" id="b_off">Off</button>
+					</p>
+					<p class="bbuuzzeerr">
+					BUZZER<br>
+					<button class="bb b_buzzer" id="b_buzzer_on">On</button>
+					<button class="bb b_buzzer" id="b_buzzer_off">Off</button>
+					</p>
+					<p>
+					MATRIZ<br>
+					<button class="bb b_matriz" id="b_matriz_bd">BD</button>
+					<button class="bb b_matriz" id="b_matriz_corazon">♥</button><br>
+					<button class="bb b_matriz" id="b_matriz_carita">:)</button>
+					<button class="bb b_matriz" id="b_matriz_one">+1</button><br>
+					</p>
+					<p>Número: <input type="number" id="matriznumval" style="width: 70px; margin-right: 4px;"><button id="matriznumb" style="width: 50px; margin-right: 2px; height: 21px;">Send</button>
+					</p>
+					</p><br>
+					Conócenos! <a href="http://bilbaodynamics.com">BilbaoDynamics.com</a>
+
+				</div>
+				<div class="web_off">
+				</div>
+			</div>
+
+		</div>
+		<div class="container-matriz">
+			<div class="grid">
+			</div>
+			<div class="panel">
+				<button id="rst">Reset</button>
+				<button id="snd">Enviar</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- After load Scripts -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+
+</html>

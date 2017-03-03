@@ -1,0 +1,156 @@
+html,body{
+    margin: 0;
+}
+
+.container{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+}
+
+.grid{
+    display: block;
+    position: absolute;
+    top: 35px;
+    bottom: 30px;
+    right: 5px;
+    left: 5px;
+}
+
+.topbar{
+    position: relative;
+    top: 2px;
+    left: 2px;
+    padding: 0;
+    margin: 0;
+}
+
+table{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #666666;
+}
+
+.panel{
+    display: block;
+    position: absolute;
+    bottom: 1px;
+    right: 5px;
+    left: 5px;
+}
+
+.ttab{
+    overflow: hidden;
+    border: 2px solid  lightslategrey;
+    background-color: white;
+    font-size: 16px;
+    
+}
+
+.bbuuzzeerr{
+    display: none;
+}
+#pinchiid{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.ppad{
+    padding: 5px;
+}
+.iimg{
+    width: 200px;
+}
+.cc1{
+    position: absolute;
+    width: 200px;
+}
+.cc2{
+    left: 250px;
+    position: absolute;
+    padding-top: 20x;
+}
+p{
+    margin: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #5f0581;
+}
+.container-web{
+    display: block;
+    position: absolute;
+    top: 35px;
+    bottom: 30px;
+    right: 5px;
+    left: 5px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    visibility: visible;
+    background-color: rgb(173, 216, 230);
+    color: Black;
+    height: 90%;
+    border: 2px solid #666666;
+}
+.container-matriz{
+    visibility: hidden;
+}
+
+.web_off{
+    position: relative;
+    top: 200px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.b_red {background-color: #f44336; }
+.b_green {background-color: #4CAF50; }
+.b_blue {background-color: #008CBA; }
+.b_off {background-color: #636363 }
+.b_buzzer {background-color: #69a9b1;}
+.b_matriz {background-color: #50285f}
+
+
+.bb{
+    color: white;
+    border: none;
+    width: 100px;
+    margin-bottom: 2px;
+}
+
+.ib{
+    display: inline-block;
+    position: relative;
+    top: -10px;
+}
+
+button{
+    height: 28px;
+    width: 140px;
+}
+
+#snd{
+    position: absolute;
+    right: 0;
+}
+
+tr:nth-child(even) td:nth-child(odd){
+  background-color:#CCC;
+}
+tr:nth-child(odd) td:nth-child(even){
+  background-color:#CCC;
+}
+tr:nth-child(even) td:nth-child(even){
+  background-color:	#D3D3D3;
+}
+tr:nth-child(odd) td:nth-child(odd){
+  background-color:	#D3D3D3;
+}
+
+.ledEnabled{
+    background-color:	#008080 !important;
+}
