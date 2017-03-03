@@ -1,0 +1,50 @@
+#######################################
+# Syntax Coloring Map For PinchyMatrix
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+PinchyMatrix	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+shutdown	KEYWORD2
+setScanLimit	KEYWORD2
+setIntensity	KEYWORD2
+clearDisplay	KEYWORD2
+setLed	KEYWORD2
+setRow	KEYWORD2
+setCol	KEYWORD2
+setMatrixByCols	KEYWORD2
+setMatrixByRows	KEYWORD2
+setMatrix	KEYWORD2
+left	KEYWORD2
+right	KEYWORD2
+up	KEYWORD2
+down	KEYWORD2
+number	KEYWORD2
+kitten	KEYWORD2
+veryHappy	KEYWORD2
+smiling	KEYWORD2
+happy	KEYWORD2
+kissing	KEYWORD2
+neutral	KEYWORD2
+smirking	KEYWORD2
+sad	KEYWORD2
+tongue	KEYWORD2
+openMouth	KEYWORD2
+heart	KEYWORD2
+bd	KEYWORD2
+rightArrow	KEYWORD2
+leftArrow	KEYWORD2
+upArrow	KEYWORD2
+downArrow	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
